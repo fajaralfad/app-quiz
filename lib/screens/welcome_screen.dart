@@ -24,7 +24,7 @@ class WelcomeScreen extends StatelessWidget {
               child: Opacity(
                 opacity: 0.1,
                 child: Image.asset(
-                  'assets/images/icon.png',
+                  'assets/images/background.jpeg',
                   repeat: ImageRepeat.repeat,
                 ),
               ),
