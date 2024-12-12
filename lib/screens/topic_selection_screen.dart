@@ -18,9 +18,9 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'What is the result of 7 + 5?', 
-          'options': ['10', '11', '12', '13'],
-          'answer': '12',
+          'question': 'What is the result of 7 + 7?', 
+          'options': ['14', '11', '12', '13'],
+          'answer': '14',
         },
         // Add more questions for Terminology
       ],
