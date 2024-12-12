@@ -18,10 +18,10 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'What is the term for...',
+          'question': 'What is the result of 7 + 5?',
           'image': 'assets/images/icon.png', // Image path
-          'options': ['Term A', 'Term B', 'Term C', 'Term D'],
-          'answer': 'Term A',
+          'options': ['10', '11', '12', '13'],
+          'answer': '12',
         },
         // Add more questions for Terminology
       ],
@@ -46,10 +46,10 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'Which muscle is found in...',
+          'question': 'Which river is the longest in the world?',
           'image': 'assets/images/pertanyaan_1.png', // Image path
-          'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
-          'answer': 'Muscle B',
+          'options': ['Amazon', 'Nile', 'Yangtze', 'Mississippi'],
+          'answer': 'Nile',
         },
         // Add more questions for Upper limb
       ],
@@ -61,10 +61,10 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'Which muscle is found in...',
+          'question': 'What year did World War II begin?',
           'image': 'assets/images/pertanyaan_1.png', // Image path
-          'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
-          'answer': 'Muscle B',
+          'options': ['1914', '1939', '1945', '1950'],
+          'answer': '1939',
         },
         // Add more questions for Upper limb
       ],
@@ -76,34 +76,34 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'Which muscle is found in...',
+          'question': 'Apa sinonim dari kata "indah"?',
           'image': 'assets/images/pertanyaan_1.png', // Image path
-          'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
-          'answer': 'Muscle B',
+          'options': ['Cantik', 'Buruk', 'Kotor', 'Besar'],
+          'answer': 'Cantik',
         },
         {
-          'question': 'Which muscle is found in...',
+          'question': 'Manakah yang merupakan unsur intrinsik dalam sebuah cerita?',
           'image': 'assets/images/pertanyaan_1.png', // Image path
-          'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
-          'answer': 'Muscle B',
+          'options': ['Tokoh', 'Penerbit', 'Harga', 'Jumlah Halaman'],
+          'answer': 'Tokoh',
         },
         {
-          'question': 'Which muscle is found in...',
+          'question': 'Apa antonim dari kata "tinggi"?',
           'image': 'assets/images/pertanyaan_1.png', // Image path
-          'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
-          'answer': 'Muscle B',
+          'options': ['Panjang', 'Kecil', 'Pendek', 'Besar'],
+          'answer': 'Pendek',
         },
         {
-          'question': 'Which muscle is found in...',
+          'question': 'Manakah kata serapan yang berasal dari bahasa Inggris?',
           'image': 'assets/images/pertanyaan_1.png', // Image path
-          'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
-          'answer': 'Muscle B',
+          'options': ['Kursus', 'Amal', 'Lembaga', 'Belanja'],
+          'answer': 'Kursus',
         },
         {
-          'question': 'Which muscle is found in...',
+          'question': 'Dalam pantun, baris kedua dan keempat berfungsi sebagai?',
           'image': 'assets/images/pertanyaan_1.png', // Image path
-          'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
-          'answer': 'Muscle B',
+          'options': ['Sampiran', 'Isi', 'Rima', 'Pola'],
+          'answer': 'Isi',
         },
       ],
     },
@@ -114,10 +114,10 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'Which muscle is found in...',
+          'question': 'What is the synonym of the word "happy"?',
           'image': 'assets/images/pertanyaan_1.png', // Image path
-          'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
-          'answer': 'Muscle B',
+          'options': ['Sad', 'Joyful', 'Angry', 'Tired'],
+          'answer': 'Joyful',
         },
         // Add more questions for Upper limb
       ],
