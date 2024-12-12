@@ -166,22 +166,24 @@ class _QuizScreenState extends State<QuizScreen> {
                                   itemCount: (question['options'] as List<String>).length,
                                   itemBuilder: (ctx, index) {
                                     final option = (question['options'] as List<String>)[index];
-                                    final isCorrect = option == correctAnswer;
                                     final isSelected = option == _selectedOption;
+                                    final isCorrect = option == correctAnswer;
 
                                     Color optionColor;
                                     Color textColor;
                                     IconData? optionIcon;
 
                                     if (_isAnswered) {
-                                      if (isCorrect) {
-                                        optionColor = Colors.green.shade100;
-                                        textColor = Colors.green.shade800;
-                                        optionIcon = Icons.check_circle;
-                                      } else if (isSelected) {
-                                        optionColor = Colors.red.shade100;
-                                        textColor = Colors.red.shade800;
-                                        optionIcon = Icons.cancel;
+                                      if (isSelected) {
+                                        if (isCorrect) {
+                                          optionColor = Colors.green.shade100;
+                                          textColor = Colors.green.shade800;
+                                          optionIcon = Icons.check_circle;
+                                        } else {
+                                          optionColor = Colors.red.shade100;
+                                          textColor = Colors.red.shade800;
+                                          optionIcon = Icons.cancel;
+                                        }
                                       } else {
                                         optionColor = Colors.grey.shade100;
                                         textColor = Colors.grey.shade800;
