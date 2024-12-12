@@ -18,8 +18,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'What is the result of 7 + 5?',
-          'image': 'assets/images/icon.png', // Image path
+          'question': 'What is the result of 7 + 5?', 
           'options': ['10', '11', '12', '13'],
           'answer': '12',
         },
@@ -47,7 +46,6 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'questions': [
         {
           'question': 'Which river is the longest in the world?',
-          'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['Amazon', 'Nile', 'Yangtze', 'Mississippi'],
           'answer': 'Nile',
         },
@@ -62,7 +60,6 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'questions': [
         {
           'question': 'What year did World War II begin?',
-          'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['1914', '1939', '1945', '1950'],
           'answer': '1939',
         },
@@ -77,31 +74,26 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'questions': [
         {
           'question': 'Apa sinonim dari kata "indah"?',
-          'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['Cantik', 'Buruk', 'Kotor', 'Besar'],
           'answer': 'Cantik',
         },
         {
           'question': 'Manakah yang merupakan unsur intrinsik dalam sebuah cerita?',
-          'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['Tokoh', 'Penerbit', 'Harga', 'Jumlah Halaman'],
           'answer': 'Tokoh',
         },
         {
           'question': 'Apa antonim dari kata "tinggi"?',
-          'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['Panjang', 'Kecil', 'Pendek', 'Besar'],
           'answer': 'Pendek',
         },
         {
           'question': 'Manakah kata serapan yang berasal dari bahasa Inggris?',
-          'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['Kursus', 'Amal', 'Lembaga', 'Belanja'],
           'answer': 'Kursus',
         },
         {
           'question': 'Dalam pantun, baris kedua dan keempat berfungsi sebagai?',
-          'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['Sampiran', 'Isi', 'Rima', 'Pola'],
           'answer': 'Isi',
         },
@@ -115,7 +107,6 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'questions': [
         {
           'question': 'What is the synonym of the word "happy"?',
-          'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['Sad', 'Joyful', 'Angry', 'Tired'],
           'answer': 'Joyful',
         },
