@@ -55,6 +55,13 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
           "options": ["Sungai Nil", "Sungai Amazon", "Sungai Yangtze", "Sungai Mississippi"],
           "answer": "Sungai Amazon",
         },
+        {
+          "question": "Fenomena ini disebut?",
+          "options": ["Tornado", "Topan", "Badai salju", "Siklon"],
+          "answer": "Tornado",
+          "image": "assets/images/angin-tornado.jpg"
+        },
+
         // Add more questions 
       ],
     },
