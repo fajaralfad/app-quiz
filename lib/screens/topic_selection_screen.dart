@@ -45,11 +45,17 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'Which river is the longest in the world?',
-          'options': ['Amazon', 'Nile', 'Yangtze', 'Mississippi'],
-          'answer': 'Nile',
+          'question': 'Gunung tertinggi di dunia adalah?',
+          'options': ['Gunung Everest', 'Gunung Kilimanjaro', 'Gunung Fuji', 'Gunung Denali'],
+          'answer': 'Gunung Everest',
         },
-        // Add more questions for Upper limb
+        {
+          "question": "Nama sungai yang ditandai dalam peta ini adalah?",
+          "image": "assets/images/sungai-amazon.jpeg",
+          "options": ["Sungai Nil", "Sungai Amazon", "Sungai Yangtze", "Sungai Mississippi"],
+          "answer": "Sungai Amazon",
+        },
+        // Add more questions 
       ],
     },
     // Add more topics with questions
