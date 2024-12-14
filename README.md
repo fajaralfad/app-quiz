@@ -1,16 +1,59 @@
-# myapp
+# Quizpedia
 
-A new Flutter project.
+Quizpedia adalah aplikasi kuis interaktif yang dirancang untuk menguji dan memperluas pengetahuan Anda. Dimulai dengan topik geografi, aplikasi ini menyediakan pengalaman belajar yang menyenangkan dengan antarmuka yang menarik dan fitur interaktif!
 
-## Getting Started
+## Fitur Utama
 
-This project is a starting point for a Flutter application.
+- **Kuis Interaktif**  
+  Jawab pertanyaan pilihan ganda dengan umpan balik langsung dan bilah progres untuk memantau kemajuan Anda.
 
-A few resources to get you started if this is your first Flutter project:
+- **Visual yang Menarik**  
+  Beberapa pertanyaan dilengkapi dengan gambar pendukung untuk memperkaya pengalaman belajar.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Hasil yang Informatif**  
+  Lihat laporan hasil akhir yang mencakup jumlah jawaban benar, total pertanyaan, dan skor persentase Anda.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Desain Modern**  
+  Tema ungu cerah dan navigasi yang mudah digunakan menjadikan pembelajaran lebih menyenangkan.
+
+## Prasyarat
+
+Sebelum memulai, pastikan Anda memiliki:
+- Flutter SDK (versi terbaru)
+- Git
+- Perangkat atau emulator Android/iOS
+
+## Instalasi dan Penggunaan
+
+### 1. Clone Proyek
+
+Gunakan perintah berikut untuk mengkloning repositori:
+
+```bash
+git clone https://github.com/username/quizpedia.git
+cd quizpedia
+```
+
+### 2. Instal Dependensi
+
+Jalankan perintah berikut untuk mengunduh dependensi proyek:
+
+```bash
+flutter pub get
+```
+
+### 3. Jalankan Aplikasi
+
+Hubungkan perangkat atau jalankan emulator, kemudian gunakan perintah:
+
+```bash
+flutter run
+```
+
+## Kontribusi
+
+Kontribusi selalu disambut! Silakan buka *issue* atau kirim *pull request*.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah [Tambahkan Jenis Lisensi]. Lihat berkas `LICENSE` untuk detail lebih lanjut.
