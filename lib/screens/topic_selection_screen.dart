@@ -102,6 +102,16 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
           "answer": "Tornado",
           "image": "assets/images/angin-tornado.jpg"
         },
+        {
+          'question': 'Negara manakah yang memiliki jumlah pulau terbanyak di dunia?',
+          'options': ['Indonesia', 'Filipina', 'Swedia', 'Kanada'],
+          'answer': 'Indonesia',
+        },
+        {
+          'question': 'Ibu kota negara Jepang adalah?',
+          'options': ['Seoul', 'Beijing', 'Tokyo', 'Hanoi'],
+          'answer': 'Tokyo',
+        },
 
         // Add more questions 
       ],
