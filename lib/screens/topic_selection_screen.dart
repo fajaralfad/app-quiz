@@ -124,6 +124,22 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
           'options': ['17 Agustus 1945', '1 Juni 1945', '28 Oktober 1928', '10 November 1945'],
           'answer': '17 Agustus 1945',
         },
+        {
+          'question': 'Siapa tokoh yang membacakan naskah Proklamasi Kemerdekaan Indonesia?',
+          'image': 'assets/images/proklamasi-indonesia.jpg',
+          'options': ['Soekarno', 'Mohammad Hatta', 'Sutan Sjahrir', 'Ahmad Subardjo'],
+          'answer': 'Soekarno',
+        },
+        {
+          'question': 'Siapa yang dijuluki sebagai "Bapak Demokrasi" dalam sejarah Yunani Kuno?',
+          'options': ['Pericles', 'Socrates', 'Plato', 'Aristoteles'],
+          'answer': 'Pericles',
+        },
+        {
+          'question': 'Pada tahun berapa Indonesia menjadi anggota Perserikatan Bangsa-Bangsa (PBB) untuk pertama kali?',
+          'options': ['1950', '1949', '1945', '1955'],
+          'answer': '1950',
+        },
         // Add more questions for Upper limb
       ],
     },
