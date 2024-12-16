@@ -58,11 +58,25 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
           'answer': 'Muscle B',
         },
         {
-          'question': 'What is the result of 10 + 5 - 3?',
-          'image': 'assets/images/penjumlahan.png',
-          'options': ['14', '11', '12', '13'],
-          'answer': '12',
-        },git config user.name
+          'question': 'What is the boiling point of water at sea level?', // Image path
+          'options': ['90°C', '100°C', '110°C', '120°C'],
+          'answer': '100°C',
+        },
+        {
+          'question': 'Which planet is known as the Red Planet?', // Image path
+          'options': ['Earth', 'Mars', 'Jupiter', 'Saturn'],
+          'answer': 'Mars',
+        },
+        {
+          'question': 'What is the primary gas in Earths atmosphere?',
+          'options': ['Oxygen', 'Nitrogen', 'Carbon Dioxide', 'Argon'],
+          'answer': 'Nitrogen',
+        },
+        {
+          'question': 'What is the chemical formula for water?',
+          'options': ['H2O', 'CO2', 'NaCl', 'O2'],
+          'answer': 'H2O',
+        },
         // Add more questions for Upper limb
       ],
     },
