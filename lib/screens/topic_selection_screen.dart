@@ -18,11 +18,32 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'What is the result of 7 + 7?', 
+          'question': 'What is the result of 9 + 6?',
+          'image': 'assets/images/penjumlahan.png',
           'options': ['14', '11', '12', '13'],
           'answer': '14',
         },
-        // Add more questions for Terminology
+        {
+          'question': 'What is the result of 0 x 9?',
+          'options': ['1', '3', '0', '9'],
+          'answer': '0',
+        },
+        {
+          'question': 'What is the result of 100 ÷ 4?',
+          'options': ['4', '44', '15', '25'],
+          'answer': '25',
+        },
+        {
+          'question': 'What is the result of 5 - 9?',
+          'options': ['4', '-4', '5', '-5'],
+          'answer': '-4',
+        },
+        {
+          'question': 'What is the result of (1 + 5) x 5?',
+          'options': ['30', '26', '27', '29'],
+          'answer': '30',
+        },
+
       ],
     },
     {
@@ -35,6 +56,12 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
           'image': 'assets/images/pertanyaan_1.png', // Image path
           'options': ['Muscle A', 'Muscle B', 'Muscle C', 'Muscle D'],
           'answer': 'Muscle B',
+        },
+        {
+          'question': 'What is the result of 10 + 5 - 3?',
+          'image': 'assets/images/penjumlahan.png',
+          'options': ['14', '11', '12', '13'],
+          'answer': '12',
         },
         // Add more questions for Upper limb
       ],
@@ -50,7 +77,7 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
           'answer': 'Gunung Everest',
         },
         {
-          "question": "Nama sungai yang ditandai dalam peta ini adalah?",
+          "question": "Nama sungai yang ada pada gambar ini adalah?",
           "image": "assets/images/sungai-amazon.jpeg",
           "options": ["Sungai Nil", "Sungai Amazon", "Sungai Yangtze", "Sungai Mississippi"],
           "answer": "Sungai Amazon",
@@ -72,9 +99,10 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
       'progress': 0.0,
       'questions': [
         {
-          'question': 'What year did World War II begin?',
-          'options': ['1914', '1939', '1945', '1950'],
-          'answer': '1939',
+          'question': 'Gambar berikut menunjukkan dokumen bersejarah yang mengakhiri Perang Dunia I. Apa nama perjanjian ini? \n (Perhatikan gambar di atas ini)',
+          "image": "assets/images/perjanjian-versailes.jpg",
+          'options': ['Perjanjian Versailles', 'Perjanjian Potsdam', 'Perjanjian Tordesillas', 'Perjanjian Westphalia'],
+          'answer': 'Perjanjian Versailles',
         },
         // Add more questions for Upper limb
       ],
