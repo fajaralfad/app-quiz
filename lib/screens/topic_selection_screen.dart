@@ -118,6 +118,12 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
           'options': ['Perjanjian Versailles', 'Perjanjian Potsdam', 'Perjanjian Tordesillas', 'Perjanjian Westphalia'],
           'answer': 'Perjanjian Versailles',
         },
+        {
+          'question': 'Peristiwa Proklamasi Kemerdekaan Indonesia terjadi pada tanggal?',
+          'image': 'assets/images/proklamasi-indonesia.jpg',
+          'options': ['17 Agustus 1945', '1 Juni 1945', '28 Oktober 1928', '10 November 1945'],
+          'answer': '17 Agustus 1945',
+        },
         // Add more questions for Upper limb
       ],
     },
