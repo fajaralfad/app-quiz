@@ -197,6 +197,26 @@ class _TopicSelectionScreenState extends State<TopicSelectionScreen> {
           'options': ['Sad', 'Joyful', 'Angry', 'Tired'],
           'answer': 'Joyful',
         },
+        {
+          'question': 'What is the antonym of the word "strong"?',
+          'options': ['Weak', 'Tall', 'Fast', 'Heavy'],
+          'answer': 'Weak',
+        },
+        {
+          'question': 'Choose the correct word: "She ____ to the store every Saturday."',
+          'options': ['goes', 'going', 'went', 'gone'],
+          'answer': 'goes',
+        },
+        {
+          'question': 'Choose the correct sentence: "I ____ to the party last night."',
+          'options': ['Go', 'Goes', 'Going', 'Went'],
+          'answer': 'Went',
+        },
+        {
+          'question': 'What is the opposite of the word "new"?',
+          'options': ['Old', 'Young', 'Hot', 'Big'],
+          'answer': 'Old',
+        }
         // Add more questions for Upper limb
       ],
     },
