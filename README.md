@@ -1,6 +1,6 @@
 # Quizpedia
 
-Quizpedia adalah aplikasi kuis interaktif yang dirancang untuk menguji dan memperluas pengetahuan Anda. Dimulai dengan topik geografi, aplikasi ini menyediakan pengalaman belajar yang menyenangkan dengan antarmuka yang menarik dan fitur interaktif!
+Quizpedia adalah aplikasi kuis interaktif yang dirancang untuk menguji dan memperluas pengetahuan Anda. Dengan berbagai topik mata pelajaran, aplikasi ini menyediakan pengalaman belajar yang menyenangkan dengan antarmuka yang menarik dan fitur interaktif!
 
 ## Fitur Utama
 
